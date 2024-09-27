@@ -1,0 +1,130 @@
+
+html{
+    background-color: rgb(40, 40, 46);
+    color: white;
+     
+}
+
+#nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color:white;
+}
+
+#nav h2{
+    color:white;
+    box-shadow: 2px 2px 5px red;
+}
+#quiz-type
+{   border-color: red;
+    border-style: solid;
+    height: 450px;
+    width: 200px;
+    margin: 30px;
+    background-color: rgb(103, 92, 179);
+    box-shadow: 3px 3px 10px black;
+    font-size: 20px;
+}
+
+#quiz-type li
+{
+     margin-top: 30px;
+     scroll-behavior: fixed;
+}
+
+#quiz-cont
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ #question-cont
+{
+   border-color: red;
+   border-style: solid;
+   height: fit-content;
+   width: 1000px;
+   background-color: rgb(103, 92, 179);
+   text-align: center;
+   box-shadow: 3px 3px 10px black;
+   font-size: 20px;
+}
+
+#btn
+{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display:none;
+  }
+
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  
+#quiz-type li:hover
+{
+  text-decoration: underline;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#options 
+{
+    display: none;
+     justify-content: center;
+     margin-top: 100px;
+}
+
+#options td
+{
+    padding:10px;
+}
+
+#btn button
+{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50em;
+    background-color: darkblue;
+    color:white;
+    border-color:silver;
+    border-style: solid;
+    box-shadow: 3px 3px 10px black;
+}
+
+#btn button:hover{
+    border-color: red;
+    transform:scale(1.1);
+    transition: 0.5s;
+}
+
+#result  table
+{
+    padding: 5px;
+    width: 1000px;
+}
+
+#result table th
+{
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+#result 
+{
+ display: none;
+}
+
+#result table td{
+    border-color: red;
+    border-style: solid;
+    padding: 15px;
+}

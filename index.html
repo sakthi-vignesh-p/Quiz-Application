@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="questions.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    
+    <div id="nav">
+       <h1>QUIZ</h1>
+       <h2>SKILL SPEAK LOUDER THAN WORDS</h2>    
+    </div>
+
+  <div id="quiz-cont">
+    
+    <div id="quiz-type">
+        <ol>
+        <li onclick="ques_type(0)">Programming</li>
+        <li onclick="ques_type(1)" >General</li>
+        <li onclick="ques_type(2)">Maths</li>
+        <li onclick="ques_type(3)">DSA</li>
+        <li onclick="ques_type(4)">Social</li>
+      </ol>
+    </div>
+ 
+    <div id="question-cont">
+       
+      
+      <div id="result">
+        <h2 id="result_txt"></h2>
+        <table>
+            <th>Categery</th><th>Total answerd</th><th>score</th><th>wrong ans</th>
+           <tr>
+            <td id="categery"></td>
+            <td id="total_ans"></td>
+            <td id="score"></td>
+            <td id="wrong_ans" ></td>
+          </tr>
+          </table>
+        </div>
+        
+      <div id="question">
+            <h2 id="ques"></h2>
+        </div>
+
+      <div id="options">
+        <table>
+          <tr>
+            <td><input  name="option" type="radio" value="a"></td><td id="a">A)</td>
+          </tr>
+          <tr>
+            <td><input name="option" type="radio" value="b"></td><td id="b">B)</td>
+          </tr>
+          <tr>
+            <td><input name="option" type="radio" value="c"></td><td id="c">C)</td>
+          </tr>
+          <tr>
+            <td><input name="option" type="radio" value="d"></td><td id="d">D)</td>
+          </tr>
+          </table>
+       </div>
+                    
+       <div id="btn"> 
+        <button onclick="previous()">previous</button>
+        <button onclick="skip()">Skip</button>
+        <button onclick="check_selection()">Submit</button>
+        <button onclick="finish_quiz()">Finish</button>
+    </div>    
+       </div>
+          </div>
+</html>
+<script>
+
+
+
+</script>
